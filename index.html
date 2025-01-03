@@ -13,39 +13,40 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            min-height: 100vh;
             background: linear-gradient(135deg, #4ECDC4, #556270);
             color: #ffffff;
             text-align: center;
         }
         .container {
-            max-width: 700px;
+            max-width: 600px;
+            width: 90%;
             padding: 20px;
+            box-sizing: border-box;
+            border-radius: 10px;
         }
         h1 {
-            font-size: 50px;
+            font-size: 36px;
             margin-bottom: 20px;
             letter-spacing: 1px;
         }
         p {
-            font-size: 18px;
+            font-size: 16px;
             line-height: 1.8;
-            margin-bottom: 30px;
-        }
-        .social-links a {
-            margin: 0 15px;
-            text-decoration: none;
-            color: #ffffff;
-            font-size: 24px;
-            transition: opacity 0.3s;
-        }
-        .social-links a:hover {
-            opacity: 0.8;
+            margin-bottom: 20px;
         }
         .footer {
             margin-top: 20px;
             font-size: 14px;
             color: rgba(255, 255, 255, 0.7);
+        }
+        @media (min-width: 768px) {
+            h1 {
+                font-size: 48px;
+            }
+            p {
+                font-size: 18px;
+            }
         }
     </style>
 </head>
@@ -53,15 +54,14 @@
     <div class="container">
         <h1>Cirqyt is Coming Soon!</h1>
         <p>
-            Cirqyt is a fresh take on interacting in the online world—where your interactions and engagement are driven solely by **you**, with no outside influences. 
-            In a digital landscape increasingly dominated by algorithms designed to manipulate engagement, Cirqyt puts users back in control. 
-            Whether you're connecting with friends, discovering new ideas, or sharing your thoughts, Cirqyt offers a platform that prioritizes authenticity and genuine interaction.
+            Cirqyt is a fresh take on interacting in the online world—where your interactions and engagement are driven solely by **you**, with no outside influences.
         </p>
         <p>
-            We're building something different: a space where what you see is determined by your choices, not algorithms. 
-            A place where connections are real, and your mental well-being is respected. Stay tuned for something truly new.
+            In a digital landscape increasingly dominated by algorithms designed to manipulate engagement, Cirqyt puts users back in control. Whether you're connecting with friends, discovering new ideas, or sharing your thoughts, Cirqyt offers a platform that prioritizes authenticity and genuine interaction.
         </p>
-
+        <p>
+            We're building something different: a space where what you see is determined by your choices, not algorithms. A place where connections are real, and your mental well-being is respected. Stay tuned for something truly new.
+        </p>
         <div class="footer">
             &copy; 2025 Cirqyt. All rights reserved.
         </div>
